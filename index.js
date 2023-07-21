@@ -10,4 +10,6 @@ const trailingZeroes = require("./trailingZeroes");
 const hcf = require("./hcfGCD");
 const queue = require("./queue");
 const anagrams = require("./anagrams");
-console.log(anagrams("bat", "atb"));
+const removeDuplicateItemArray = require("./removDuplicateArray");
+const capitalizeFirstCharacter = require("./capitalizeCharacter");
+console.log(capitalizeFirstCharacter("hello lazy"));
