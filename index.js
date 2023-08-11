@@ -12,4 +12,6 @@ const queue = require("./queue");
 const anagrams = require("./anagrams");
 const removeDuplicateItemArray = require("./removDuplicateArray");
 const capitalizeFirstCharacter = require("./capitalizeCharacter");
-console.log(capitalizeFirstCharacter("hello lazy"));
+const fibonaaciSeries = require("./fibonacciSeries");
+const recursiveFibonacciSeries = require("./recursiveFibonacciSeries");
+console.log(recursiveFibonacciSeries(4));
