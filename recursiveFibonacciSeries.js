@@ -7,9 +7,9 @@ function memoizer(fn) {
     return result;
   };
 }
-function slowFib(number) {
+function fib(number) {
   if (number < 2) return number;
-  return slowFib(number - 1) + slowFib(number - 2);
+  return fib(number - 1) + fib(number - 2);
 }
-const fastFib = memoizer(slowFib);
+const fastFib = memoizer(fib);
 module.exports = fastFib;
