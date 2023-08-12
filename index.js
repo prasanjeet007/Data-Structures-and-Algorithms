@@ -16,4 +16,5 @@ const fibonaaciSeries = require("./fibonacciSeries");
 const recursiveFibonacciSeries = require("./recursiveFibonacciSeries");
 const circularQueue = require("./circularQueue");
 const linearSearchObj = require("./linearSearch");
-console.log(linearSearchObj.linearSearch(0));
+const binarySearchObj = require("./binarySearch");
+console.log(binarySearchObj.searchItem(12));
