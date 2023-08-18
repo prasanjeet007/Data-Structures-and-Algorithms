@@ -17,4 +17,8 @@ const recursiveFibonacciSeries = require("./recursiveFibonacciSeries");
 const circularQueue = require("./circularQueue");
 const linearSearchObj = require("./linearSearch");
 const binarySearchObj = require("./binarySearch");
-console.log(binarySearchObj.searchItem(12));
+const ascSelectionSortObj = require('./ascendingSelectionSort');
+const dscSelectionSortObj = require('./descendingSelectionSort');
+console.log(ascSelectionSortObj.selectionSort(ascSelectionSortObj.arrayElement,ascSelectionSortObj.minPosition));
+console.log(dscSelectionSortObj.selectionSort(dscSelectionSortObj.arrayElement,dscSelectionSortObj.minPosition));
+
